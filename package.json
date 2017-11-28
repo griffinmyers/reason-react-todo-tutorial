@@ -1,0 +1,17 @@
+{
+  "name": "todo",
+  "scripts": {
+    "start": "bsb -make-world -w",
+    "build": "webpack -w",
+    "clean": "bsb -clean-world"
+  },
+  "dependencies": {
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "reason-react": "^0.3.0"
+  },
+  "devDependencies": {
+    "bs-platform": "^2.1.0",
+    "webpack": "^3.8.1"
+  }
+}
