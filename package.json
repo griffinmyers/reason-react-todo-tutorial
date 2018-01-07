@@ -1,5 +1,8 @@
 {
   "name": "todo",
+  "description": "first reasonml app",
+  "repository": "none",
+  "license": "MIT",
   "scripts": {
     "start": "bsb -make-world -w",
     "build": "webpack -w",
